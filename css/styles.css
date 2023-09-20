@@ -24,7 +24,7 @@ flex-shrink: 0;
 background: url('../img/LOGO\ NASA\ 2.png');
 }
 .seleccion-login-sign{
-    width: 350px;
+    width: 100%;
 height: 77px;
 flex-shrink: 0;
 border-radius: 30px;
