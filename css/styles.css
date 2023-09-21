@@ -40,7 +40,7 @@ border: 1px solid #000;
 background: #0E457E;
 }
 .bg-navbar-img{
-    background: url('../img/pexels-nicolas-diaz-14346733\ \(2\)\ 1.png');
+background: url('../img/pexels-nicolas-diaz-14346733\ \(2\)\ 1.png'), lightgray 50% / cover no-repeat;
 height: 252px;
 flex-shrink: 0;
 }
@@ -48,6 +48,11 @@ flex-shrink: 0;
     border-radius: 50px;
 background: rgba(217, 217, 217, 0.35);
 height: 600px;
+}
+.bg-footer-img{
+height: 464px;
+flex-shrink: 0;
+background: url('../img/pexels-nicolas-diaz-14346733\ \(2\)\ 3.png'), rgb(228, 214, 214) 50.869px -473.569px / 98.553% 381.402% no-repeat;
 }
 /*movil*/
 /* CSS para dispositivos móviles */
@@ -59,6 +64,11 @@ height: 600px;
         display: flex;
         justify-content: center;
     }
-
+    .bg-navbar-img{
+        width: 100%;
+    }
+    .bg-footer-img{
+        height: 1064px;
+    }
   }
   
