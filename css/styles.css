@@ -61,6 +61,10 @@
     flex-shrink: 0;
     background: url('../img/pexels-nicolas-diaz-14346733\ \(2\)\ 3.png'), rgb(228, 214, 214) 50.869px -473.569px / 98.553% 381.402% no-repeat;
 }
+.text-justify{
+    text-align: justify;
+}
+
 
 /*movil*/
 /* CSS para dispositivos móviles */
@@ -84,4 +88,8 @@
     .bg-footer-img {
         height: 1064px;
     }
+    .row-separacion{
+        --bs-gutter-y:1rem;
+    }
+
 }
