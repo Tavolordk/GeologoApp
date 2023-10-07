@@ -65,6 +65,63 @@
     text-align: justify;
 }
 
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fbc2eb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+    }
+
+.p-personalizado{
+    padding-right: 28%;
+    padding-top: 8%;
+}
+.btn-movil i{
+    display: none;
+}
+
+#container {
+    max-width: 550px;  
+  }
+  
+      .step-container {
+        position: relative;
+        text-align: center;
+        transform: translateY(-43%);
+      }
+  
+      .step-circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #007bff;
+        line-height: 30px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        cursor: pointer; /* Added cursor pointer */
+      }
+  
+      .step-line {
+        position: absolute;
+        top: 16px;
+        left: 50px;
+        width: calc(100% - 100px);
+        height: 2px;
+        background-color: #007bff;
+        z-index: -1;
+      }
+      
+      #multi-step-form{
+          overflow-x: hidden;
+      }
 
 /*movil*/
 /* CSS para dispositivos móviles */
@@ -91,5 +148,17 @@
     .row-separacion{
         --bs-gutter-y:1rem;
     }
-
+.p-personalizado{
+    padding-left: 20%;
+    padding-top: 13%;
+}
+.p-movil-boton{
+    padding-top: 10%;
+}
+.btn-movil span{
+display: none;
+}
+.btn-movil i{
+    display: inline-block;
+}
 }
